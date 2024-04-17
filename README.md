@@ -112,4 +112,18 @@ sehingga sulit untuk membuat unit testing. Namun, singleton bisa digunakan bila 
 
 #### Reflection Publisher-2
 
+1. Kita melakukan separation of concern dengan memisahkan 
+Service dan Repository. Hal ini dilakukan untuk mengikuti SRP
+serta meningkatkan maintainability dan flexibility dari program kita karena
+komponen yang lebih terfokus dan tidak terlalu bergantung satu sama lain
+
+2. Jika hanya menggunakan Model, tanpa pemisahan service dan controller,
+program akan menjadi jauh lebih kompleks serta rawan untuk terjadi duplikasi kode dan tight coupling.
+Model akan meng-handle tidak hanya bagian data, namun juga logic yang ada dalam program.
+Hal ini membuat program kita lebih sulit untuk di-maintain sehingga dapat memakan banyak
+biaya selama program tersebut tetap berjalan
+3. Sudah, saya sudah mengetahui Postman sejak mengambil mata kuliah PBP.
+Postman berguna untuk API testing seperti mengecek apakah endpoint yang saya buat
+menerima data dengan baik
+
 #### Reflection Publisher-3
